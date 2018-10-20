@@ -8,7 +8,7 @@ http://<your-host-name/index or another.
 public class SwaggerUIRedirectController {
 
     @RequestMapping("/index")
-    public String greeting() {
+    public String uiRedirectLink() {
         return "index";
     }
 
